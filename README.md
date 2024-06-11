@@ -14,20 +14,37 @@ This Flask backend serves as the server-side component for your project. It prov
 ```bash
 git clone <repository_url>
 cd <repository_name>
+```
+open the Directory 
 
-python3 -m venv venv
-
-
-venv\Scripts\activate
-
-
-pip install -r requirements.txt
-
-
+the create a '.env. file for Enviroment variables  and add:-
+```bash
 MONGO_URI=<your_mongodb_uri>
 GOOGLE_CLIENT_ID=<your_google_client_id>
 GOOGLE_CLIENT_SECRET=<your_google_client_secret>
 PORT=<port_number>
+```
+```bash
+install flask
+```
+creating a virtual environment
+```bash
+python3 -m venv venv
+```
+Activate the environment
+```bash
+venv\Scripts\activate
+```
+run the command for install all the requiremenrs.
+```bash
+pip install -r requirements.txt
+```
+
+Finally run the command :-
+```bash
+python app.py
+```
+
 
 
 python app.py
