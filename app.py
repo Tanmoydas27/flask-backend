@@ -15,7 +15,7 @@ app.config["SESSION_TYPE"] = 'filesystem'
 app.secret_key ='your-secret-key'
 SECRET_KEY = 'your-secret-key'
 
-CORS(app, origins=config.FONTEND_API )
+CORS(app, origins="http://localhost:5173")
 mongo = PyMongo(app)
 db = mongo.db.tasks
 
