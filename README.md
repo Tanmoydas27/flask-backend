@@ -45,10 +45,6 @@ Finally run the command :-
 python app.py
 ```
 
-
-
-python app.py
-```
 # Usage
 
 Visit http://localhost:<port_number> / to access the homepage.
