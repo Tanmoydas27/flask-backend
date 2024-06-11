@@ -19,17 +19,25 @@ open the Directory
 
 the create a '.env. file for Enviroment variables  and add:-
 ```bash
-MONGO_URI=<your_mongodb_uri>
-GOOGLE_CLIENT_ID=<your_google_client_id>
-GOOGLE_CLIENT_SECRET=<your_google_client_secret>
-PORT=<port_number>
+MONGO_URI=mongodb://localhost:27017/TO-DO-LIST
+GOOGLE_CLIENT_ID=12987315580-r5piiplf6vmlmebdc3dpgtbhn9uc8d9f.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+PORT=5000
 ```
 ```bash
 install flask
+
+pip install flask_cors
+pip install flask_pymongo
+pip install google-auth-oauthlib
+pip install google-auth
+pip install PyJWT
+pip install python-dotenv
+
 ```
 creating a virtual environment
 ```bash
-python3 -m venv venv
+python -m venv venv
 ```
 Activate the environment
 ```bash
