@@ -25,7 +25,7 @@ GOOGLE_CLIENT_SECRET=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
 PORT=5000
 ```
 ```bash
-pip install flask flask_pymongo flask_cors google-auth-oauthlib google-auth PyJWT python-dotenv
+pip install flask 
 ```
 creating a virtual environment
 ```bash
@@ -39,7 +39,12 @@ run the command for install all the requiremenrs.
 ```bash
 pip install -r requirements.txt
 ```
+Install this dependencies :-
+```bash
+pip install flask_pymongo flask_cors google-auth-oauthlib google-auth PyJWT python-dotenv
 
+pip install --upgrade Flask
+```
 Finally run the command :-
 ```bash
 python app.py
