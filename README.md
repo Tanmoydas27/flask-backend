@@ -25,15 +25,7 @@ GOOGLE_CLIENT_SECRET=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
 PORT=5000
 ```
 ```bash
-install flask
-
-pip install flask_cors
-pip install flask_pymongo
-pip install google-auth-oauthlib
-pip install google-auth
-pip install PyJWT
-pip install python-dotenv
-
+install flask flask_pymongo flask_cors google-auth-oauthlib google-auth PyJWT python-dotenv
 ```
 creating a virtual environment
 ```bash
@@ -53,6 +45,13 @@ Finally run the command :-
 python app.py
 ```
 
+# Data Storage or database
+
+Use Mongo DB Server to Store the data , You Mongodb compass app in your local machine or change the mognodb url with the mongoDB atlas cluster url 
+my cluster is:-
+```bash
+mongodb+srv://tanmoy1:tanmoy1@cluster0.3foceba.mongodb.net/
+```
 # Usage
 
 Visit http://localhost:<port_number> / to access the homepage.
