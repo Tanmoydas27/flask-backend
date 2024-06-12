@@ -35,10 +35,7 @@ Activate the environment
 ```bash
 venv\Scripts\activate
 ```
-run the command for install all the requiremenrs.
-```bash
-pip install -r requirements.txt
-```
+
 Install this dependencies :-
 ```bash
 pip install flask_pymongo flask_cors google-auth-oauthlib google-auth PyJWT python-dotenv
@@ -49,6 +46,8 @@ Finally run the command :-
 ```bash
 python app.py
 ```
+
+After Running the backend You can test to vite for login and all functionalities are working fine.
 
 # Data Storage or database
 
