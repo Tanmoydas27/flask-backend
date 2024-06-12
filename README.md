@@ -51,8 +51,13 @@ After Running the backend You can test to vite for login and all functionalities
 
 # Data Storage or database
 
-Use Mongo DB Server to Store the data , You Mongodb compass app in your local machine or change the mognodb url with the mongoDB atlas cluster url 
+Use Mongo DB Server to Store the data , You Mongodb compass app in your local machine 
 my cluster is:-
+Connect local mongoDB server Using :-
+```bash
+mongodb://localhost:27017/TO-DO-LIST
+```
+or change the mognodb url with the mongoDB atlas cluster url 
 ```bash
 mongodb+srv://tanmoy1:tanmoy1@cluster0.3foceba.mongodb.net/
 ```
