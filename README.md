@@ -31,7 +31,7 @@ creating a virtual environment
 ```bash
 python -m venv venv
 ```
-Activate the environment
+Activate the environment (for windows only)
 ```bash
 venv\Scripts\activate
 ```
