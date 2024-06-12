@@ -25,7 +25,7 @@ GOOGLE_CLIENT_SECRET=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
 PORT=5000
 ```
 ```bash
-install flask flask_pymongo flask_cors google-auth-oauthlib google-auth PyJWT python-dotenv
+pip install flask flask_pymongo flask_cors google-auth-oauthlib google-auth PyJWT python-dotenv
 ```
 creating a virtual environment
 ```bash
