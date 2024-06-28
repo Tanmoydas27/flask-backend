@@ -15,7 +15,7 @@ app.config["SESSION_TYPE"] = 'filesystem'
 app.secret_key ='your-secret-key'
 SECRET_KEY = 'your-secret-key'
 
-CORS(app, origins=["https://vite-fontend.vercel.app","http://localhost:5173"])
+CORS(app, origins="https://vite-fontend.vercel.app")
 mongo = PyMongo(app)
 db = mongo.db.tasks
 
